@@ -7,8 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "protocol": "inspector",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/bin/www"
+            "program": "${workspaceFolder}/bin/www",
+            "runtimeArgs":[
+                "--preserve-symlinks"
+            ]
         }
     ]
 }
