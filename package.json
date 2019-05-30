@@ -1,0 +1,34 @@
+{
+  "name": "expressDemo",
+  "version": "1.0.0",
+  "description": "- myapp - a CURD demo, build with ejs template",
+  "main": "index.js",
+  "scripts": {
+    "demo:react-helloworld": "cd react-helloworld/ui && webpack -p && cd ../server && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunnyLiu/expressDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FunnyLiu/expressDemo/issues"
+  },
+  "homepage": "https://github.com/FunnyLiu/expressDemo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
