@@ -4,6 +4,7 @@
   "description": "- myapp - a CURD demo, build with ejs template",
   "main": "index.js",
   "scripts": {
+    "demo:middleware":"cd middleware && node index.js",
     "demo:react-helloworld": "cd react-helloworld/ui && webpack -p && cd ../server && node index.js",
     "demo:template-ejs": "cd template-ejs && node app.js",
     "demo:open-auto": "cd open-auto && node app.js",
